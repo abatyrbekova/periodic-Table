@@ -18,10 +18,6 @@ table {
     transition: 0.5s;
   }
 
-/* tr:nth-child(4) :nth-child(n + 3):nth-child(-n + 4) {
-    background-color: rgba(0, 0, 222, 0.5);
-  } */
-
   tr:nth-child(4) :nth-child(n + 3):nth-child(-n + 12),
   tr:nth-child(5) :nth-child(n + 3):nth-child(-n + 12),
   tr:nth-child(6) :nth-child(n + 4):nth-child(-n + 12),
@@ -34,7 +30,8 @@ table {
   tr:nth-child(4) :nth-child(16) {
     background-color: #f3ff3d;
   }
-  tr:nth-child(6) :nth-child(3) {
+  tr:nth-child(6) :nth-child(3),
+  tr:nth-child(7) :nth-child(3) {
     border: 2px gray solid;
   }
   tr:nth-child(6) :nth-child(3),
@@ -44,4 +41,31 @@ table {
   tr:nth-child(n + 2):nth-child(-n + 7) :nth-child(1),
   tr:nth-child(7) :nth-child(17) {
     background-color: #8080b1;
+  }
+  tr:nth-child(7) :nth-child(3),
+  tr:nth-child(9) :nth-child(n + 2):nth-child(-n + 15) {
+    background-color: #3da1a0;
+  }
+  tr:nth-child(n + 2):nth-child(-n + 7) :nth-child(2),
+  tr:nth-child(7) :nth-child(18) {
+    background-color: #e5cf9f;
+  }
+  tr:nth-child(n + 3):nth-child(-n + 7) :nth-child(13),
+  tr:nth-child(n + 5):nth-child(-n + 7) :nth-child(14),
+  tr:nth-child(6) :nth-child(15) {
+    background-color: #ffc0cd;
+  }
+  tr:nth-child(2) :nth-child(13),
+  tr:nth-child(n + 3):nth-child(-n + 4) :nth-child(14),
+  tr:nth-child(n + 4):nth-child(-n + 5) :nth-child(15),
+  tr:nth-child(n + 5):nth-child(-n + 6) :nth-child(16) {
+    background-color: #ff9b69;
+  }
+  tr:nth-child(n + 1):nth-child(-n + 6) :nth-child(18),
+  tr:nth-child(7) :nth-child(16) {
+    background-color: #da8bd3;
+  }
+  tr:nth-child(n + 2):nth-child(-n + 6) :nth-child(17),
+  tr:nth-child(7) :nth-child(15) {
+    background-color: #d7b13e;
   }
